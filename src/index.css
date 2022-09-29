@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.back {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: -10;
+  left: 0;
+  top: 0;
+}
+.back-img {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+#title {
+  margin-top: 50px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.search-input {
+  width: 50%;
+  height: 50px;
+  text-align: center;
+  border-radius: 50px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+}
+.search-input:focus {
+  border: 1px solid rgb(67, 69, 172);
+}
+.sonuc {
+  position: relative;
+  margin-top: 100px;
+}
+.sehir {
+  color: white;
+  font-size: 60px;
+  text-align: center;
+}
+.detay {
+  margin-top: 60px;
+  width: 100%;
+  height: 250px;
+  background-color: #474747;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.derece {
+  color: white;
+  font-size: 100px;
+  font-weight: bold;
+}
+.statu {
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 950px) {
+  .application {
+    width: 60%;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.67);
+  }
+}
